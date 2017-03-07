@@ -13,6 +13,7 @@ cmake ^
 	-D BUILD_TESTS=OFF ^
 	-D DEACTIVATE_LZ4=ON ^
 	-D DEACTIVATE_ZSTD=ON ^
+	-D STATIC_WINCRT=ON ^
 	-G "Visual Studio 14 2015" ^
 	-Ax64 ^
 	%BLOSC_ROOT_DIR%
